@@ -1,11 +1,15 @@
 
 
-
+import Yuvraj from "./Yuvraj"
 
 function App() {
 
   return (
-    <h1>Chai aur react with vite | Yuvraj Jangir</h1>
+    <>
+    <Yuvraj />
+    <h1>Heading tag</h1>
+    <p>Test Paragraph</p>
+    </>
   )
 }
 
