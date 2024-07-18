@@ -3,11 +3,12 @@
 import Yuvraj from "./Yuvraj"
 
 function App() {
+  const username = "Yuvraj"
 
   return (
     <>
-    <Yuvraj />
-    <h1>Heading tag</h1>
+    {/* <Yuvraj /> */}
+    <h1>My Name is {username}</h1>
     <p>Test Paragraph</p>
     </>
   )
